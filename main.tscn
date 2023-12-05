@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://3u56yqjdfsgo"]
+
+[ext_resource type="PackedScene" uid="uid://c2narnvky5x8x" path="res://map.tscn" id="1_d7qxy"]
+[ext_resource type="PackedScene" uid="uid://bpxg83t8b2x0k" path="res://npc.tscn" id="2_osdvd"]
+
+[node name="Main" type="Node2D"]
+
+[node name="Map" parent="." instance=ExtResource("1_d7qxy")]
+position = Vector2(525, 224)
+scale = Vector2(2, 2)
+
+[node name="NPC" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
