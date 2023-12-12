@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://c2narnvky5x8x"]
 
-[ext_resource type="Texture2D" uid="uid://bjjmbap2tr2ve" path="res://Tilemap-ISO-0001.png" id="1_0kv4e"]
+[ext_resource type="Texture2D" uid="uid://bjjmbap2tr2ve" path="res://Assets/TileSets/Tilemap-ISO-0001.png" id="1_qmdmw"]
 [ext_resource type="Script" path="res://States Scripts/Map/IdleMapState.gd" id="4_i0qwk"]
 [ext_resource type="Script" path="res://States Scripts/Controllers/State Machine.gd" id="4_r5w1y"]
 [ext_resource type="Script" path="res://States Scripts/Map/MapState.gd" id="4_w2jnm"]
@@ -11,7 +11,7 @@ polygons = Array[PackedInt32Array]([PackedInt32Array(0, 1, 2, 3)])
 outlines = Array[PackedVector2Array]([PackedVector2Array(0, -8, -16, 0, 0, 8, 16, 0)])
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0ia4s"]
-texture = ExtResource("1_0kv4e")
+texture = ExtResource("1_qmdmw")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
 1:0/0 = 0

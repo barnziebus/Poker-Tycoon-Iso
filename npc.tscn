@@ -1,39 +1,39 @@
 [gd_scene load_steps=16 format=3 uid="uid://bpxg83t8b2x0k"]
 
-[ext_resource type="Texture2D" uid="uid://cqacrqkimay08" path="res://Character-0002 sprite sheet.png" id="1_ktv4q"]
 [ext_resource type="Script" path="res://NPC.gd" id="1_p6ihk"]
 [ext_resource type="Script" path="res://States Scripts/Controllers/State Machine.gd" id="2_r5e81"]
+[ext_resource type="Texture2D" uid="uid://cqacrqkimay08" path="res://Assets/Characters/Character-0002 sprite sheet.png" id="2_y02d0"]
 [ext_resource type="Script" path="res://States Scripts/NPC/NPC Idle.gd" id="3_fvwkv"]
 [ext_resource type="Script" path="res://States Scripts/NPC/NPC MoveToSeat.gd" id="4_wmtt8"]
 [ext_resource type="Script" path="res://States Scripts/NPC/NPC Playing.gd" id="5_e004y"]
 [ext_resource type="Script" path="res://States Scripts/NPC/NPC Leaving.gd" id="6_8yrpk"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_3yc5a"]
-atlas = ExtResource("1_ktv4q")
+atlas = ExtResource("2_y02d0")
 region = Rect2(32, 0, 32, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_37n3h"]
-atlas = ExtResource("1_ktv4q")
+atlas = ExtResource("2_y02d0")
 region = Rect2(64, 0, 32, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_4bpyh"]
-atlas = ExtResource("1_ktv4q")
+atlas = ExtResource("2_y02d0")
 region = Rect2(96, 0, 32, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2mm6u"]
-atlas = ExtResource("1_ktv4q")
+atlas = ExtResource("2_y02d0")
 region = Rect2(128, 0, 32, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ihs8r"]
-atlas = ExtResource("1_ktv4q")
+atlas = ExtResource("2_y02d0")
 region = Rect2(160, 0, 32, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_lmvea"]
-atlas = ExtResource("1_ktv4q")
+atlas = ExtResource("2_y02d0")
 region = Rect2(192, 0, 32, 48)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cicg6"]
-atlas = ExtResource("1_ktv4q")
+atlas = ExtResource("2_y02d0")
 region = Rect2(224, 0, 32, 48)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_frqgx"]
