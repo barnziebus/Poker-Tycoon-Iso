@@ -1,0 +1,107 @@
+[gd_scene load_steps=11 format=3 uid="uid://271md3mh5jjn"]
+
+[ext_resource type="Script" path="res://Seat.gd" id="1_3mxuo"]
+[ext_resource type="Texture2D" uid="uid://3wrc3r6jsoj3" path="res://Assets/Chairs/Chair-Iso-001.png" id="2_0838i"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dqmr8"]
+atlas = ExtResource("2_0838i")
+region = Rect2(96, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_haj2c"]
+atlas = ExtResource("2_0838i")
+region = Rect2(64, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3j5j6"]
+atlas = ExtResource("2_0838i")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ahwwx"]
+atlas = ExtResource("2_0838i")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_8kb0d"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dqmr8")
+}],
+"loop": true,
+"name": &"NE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_haj2c")
+}],
+"loop": true,
+"name": &"NW",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3j5j6")
+}],
+"loop": true,
+"name": &"SE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ahwwx")
+}],
+"loop": true,
+"name": &"SW",
+"speed": 5.0
+}]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i0ryk"]
+atlas = ExtResource("2_0838i")
+region = Rect2(160, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_aajns"]
+atlas = ExtResource("2_0838i")
+region = Rect2(128, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_mxcy6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i0ryk")
+}],
+"loop": true,
+"name": &"NE",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_aajns")
+}],
+"loop": true,
+"name": &"NW",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"SE",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": true,
+"name": &"SW",
+"speed": 5.0
+}]
+
+[node name="Seat" type="Node2D"]
+y_sort_enabled = true
+position = Vector2(0, -9)
+script = ExtResource("1_3mxuo")
+
+[node name="ChairSprite" type="AnimatedSprite2D" parent="."]
+y_sort_enabled = true
+sprite_frames = SubResource("SpriteFrames_8kb0d")
+animation = &"SW"
+
+[node name="ChairBackSprite" type="AnimatedSprite2D" parent="."]
+y_sort_enabled = true
+sprite_frames = SubResource("SpriteFrames_mxcy6")
+animation = &"SW"

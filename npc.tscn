@@ -66,12 +66,14 @@ animations = [{
 }]
 
 [node name="NPC" type="CharacterBody2D"]
+y_sort_enabled = true
 script = ExtResource("1_p6ihk")
 
 [node name="NavigationAgent2D" type="NavigationAgent2D" parent="."]
 path_postprocessing = 1
 
 [node name="Sprite" type="AnimatedSprite2D" parent="."]
+y_sort_enabled = true
 position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_frqgx")
 animation = &"Walking"
