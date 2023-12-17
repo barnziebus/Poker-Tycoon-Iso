@@ -24,54 +24,98 @@ scale = Vector2(2, 2)
 position = Vector2(521, 316)
 scale = Vector2(2, 2)
 
-[node name="Seat" parent="." instance=ExtResource("3_bycd8")]
+[node name="NPC5" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC6" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC7" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC8" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC9" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC10" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC11" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC12" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC13" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC14" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="NPC15" parent="." instance=ExtResource("2_osdvd")]
+position = Vector2(521, 316)
+scale = Vector2(2, 2)
+
+[node name="Seat" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(520, 340)
 scale = Vector2(2, 2)
 facing_direction = "SE"
 
-[node name="Seat2" parent="." instance=ExtResource("3_bycd8")]
+[node name="Seat2" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(589, 335)
 scale = Vector2(2, 2)
 facing_direction = "SW"
 
-[node name="Seat3" parent="." instance=ExtResource("3_bycd8")]
+[node name="Seat3" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(621, 353)
 scale = Vector2(2, 2)
 facing_direction = "SW"
 
-[node name="Seat4" parent="." instance=ExtResource("3_bycd8")]
+[node name="Seat4" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(621, 385)
 scale = Vector2(2, 2)
 
-[node name="Seat5" parent="." instance=ExtResource("3_bycd8")]
+[node name="Seat5" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(589, 400)
 scale = Vector2(2, 2)
 
-[node name="Seat6" parent="." instance=ExtResource("3_bycd8")]
+[node name="Seat6" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(558, 415)
 scale = Vector2(2, 2)
 
-[node name="Seat7" parent="." instance=ExtResource("3_bycd8")]
+[node name="Seat7" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(494, 415)
 scale = Vector2(2, 2)
 facing_direction = "NE"
 
-[node name="Seat8" parent="." instance=ExtResource("3_bycd8")]
+[node name="Seat8" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(461, 398)
 scale = Vector2(2, 2)
 facing_direction = "NE"
 
-[node name="Seat9" parent="." instance=ExtResource("3_bycd8")]
+[node name="Seat9" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(461, 367)
 scale = Vector2(2, 2)
 facing_direction = "SE"
 
-[node name="Seat10" parent="." instance=ExtResource("3_bycd8")]
+[node name="Seat10" parent="." groups=["Seats"] instance=ExtResource("3_bycd8")]
 position = Vector2(493, 355)
 scale = Vector2(2, 2)
 facing_direction = "SE"
 
-[node name="Table" parent="." instance=ExtResource("3_kbchk")]
+[node name="Table" parent="." groups=["Tables"] instance=ExtResource("3_kbchk")]
 position = Vector2(543, 395)
 scale = Vector2(2, 2)
 

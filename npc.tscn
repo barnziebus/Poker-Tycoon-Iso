@@ -107,3 +107,9 @@ script = ExtResource("6_8yrpk")
 _NPC = NodePath("../..")
 navigation = NodePath("../../NavigationAgent2D")
 sprite = NodePath("../../Sprite")
+
+[node name="StateLabel" type="RichTextLabel" parent="."]
+offset_left = -20.0
+offset_top = -55.0
+offset_right = 116.0
+offset_bottom = -15.0

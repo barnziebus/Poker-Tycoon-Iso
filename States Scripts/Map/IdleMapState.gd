@@ -21,8 +21,9 @@ func Physics_Update(_delta: float):
 
 
 func Handle_Input(event: InputEvent):
-	if event.is_action_pressed("ui_accept"):
-		Transitioned.emit(self, "EditMapState")
+	pass
+#	if event.is_action_pressed("ui_accept"):
+#		Transitioned.emit(self, "EditMapState")
 
 
 func error_handle_onload():

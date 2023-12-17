@@ -30,11 +30,11 @@ func Physics_Update(delta: float):
 		move()
 		
 		if navigation.is_navigation_finished():
-			Transitioned.emit(self, "NPCPlaying")
+			Transitioned.emit(self, "Playing")
 			print('npc is now playing')
 	
 	else:
-		Transitioned.emit(self, "NPCIdle")
+		Transitioned.emit(self, "Idle")
 
 
 func Handle_Input(event):

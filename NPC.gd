@@ -5,5 +5,5 @@ var seat = null
 
 func _physics_process(delta):
 	move_and_slide()
-	#$RichTextLabel.text = $"State Machine".current_state.name
+	$StateLabel.text = $"StateMachine".current_state.name
 

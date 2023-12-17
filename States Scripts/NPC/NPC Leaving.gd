@@ -56,10 +56,7 @@ func leave():
 
 
 func animation_handler():
-	if _NPC.velocity > Vector2.ZERO:
-		sprite.play('walk-right')
-	else:
-		sprite.play('walk-left')
+	pass
 
 
 func move():

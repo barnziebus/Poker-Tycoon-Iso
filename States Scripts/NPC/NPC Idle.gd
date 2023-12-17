@@ -45,7 +45,7 @@ func Physics_Update(delta: float):
 	#animation_handler()
 
 
-func Handle_Input(event):
+func Handle_Input(event: InputEvent):
 	pass
 
 
@@ -55,8 +55,8 @@ func actor_setup():
 
 
 func randomize_wander():
-	var random_x = randi_range(map_x_extents[0],map_x_extents[1])
-	var random_y = randi_range(map_y_extents[0],map_y_extents[1])
+	var random_x = randi_range(map_x_extents[0], map_x_extents[1])
+	var random_y = randi_range(map_y_extents[0], map_y_extents[1])
 	navigation.target_position = Vector2(random_x, random_y)
 
 
@@ -79,10 +79,12 @@ func move():
 
 
 func find_seat():
-	var chairs = get_tree().get_nodes_in_group("chairs")
+	var chairs = get_tree().get_nodes_in_group("Seats")
 	for seat in chairs:
 		if seat.open:
 			_NPC.seat = seat
 			seat.open = false
-			Transitioned.emit(self, "NPCMoveToSeat")
+			Transitioned.emit(self, "MovingToSeat")
 			return seat
+	
+
